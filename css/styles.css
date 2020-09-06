@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #52c16c;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #408350;
   text-decoration: underline;
 }
 
@@ -6097,7 +6097,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #267acf !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9799,7 +9799,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #52c16c !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10002,7 +10002,7 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #234665;
 }
 
 @media (min-width: 992px) {
