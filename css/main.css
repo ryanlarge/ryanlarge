@@ -1254,13 +1254,13 @@
     top: 1px; }
 
 .btn-primary {
-  background-color: #1f4391;
+  background-color:#1b9437e0;
   color: #FFFFFF; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover,
   .show > .btn-primary.dropdown-toggle,
   .show > .btn-primary.dropdown-toggle:focus,
   .show > .btn-primary.dropdown-toggle:hover {
-    background-color: #40a249;
+    background-color: #1f4391;
     color: #FFFFFF;
     box-shadow: none; }
   .btn-primary:hover {
@@ -1279,14 +1279,14 @@
     border-color: #1f4391; }
     .btn-primary.btn-simple:hover, .btn-primary.btn-simple:focus, .btn-primary.btn-simple:active {
       background-color: transparent;
-      color: #40a249;
-      border-color: #40a249;
+      color: #4a40a2;
+      border-color: #4a40a2;
       box-shadow: none; }
   .btn-primary.btn-link {
     color: #1f4391; }
     .btn-primary.btn-link:hover, .btn-primary.btn-link:focus, .btn-primary.btn-link:active {
       background-color: transparent;
-      color: #40a249;
+      color: #4a40a2;
       text-decoration: none;
       box-shadow: none; }
 
@@ -1484,10 +1484,10 @@
   .show > .btn-neutral.dropdown-toggle:focus,
   .show > .btn-neutral.dropdown-toggle:hover {
     background-color: #FFFFFF;
-    color: #40a249;
+    color: #4a40a2;
     box-shadow: none; }
   .btn-neutral:hover, .btn-neutral:focus {
-    color: #40a249; }
+    color: #4a40a2; }
     .btn-neutral:hover:not(.nav-link), .btn-neutral:focus:not(.nav-link) {
       box-shadow: none; }
   .btn-neutral.btn-simple {
@@ -3836,7 +3836,10 @@ Created using IcoMoon - icomoon.io
     top: 0;
     content: ""; }
   .page-header:before {
-    background-color: rgba(127, 63, 191, 0.5); }
+    background: linear-gradient(#1f4391 0%, #000 80%);
+    opacity: 0.76;
+    filter: alpha(opacity=76);
+  }
   .page-header[filter-color="orange"] {
     background: rgba(44, 44, 44, 0.2);
     /* For browsers that do not support gradients */
@@ -5153,7 +5156,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(104, 32, 138, 0.6);
+  border: 15px solid #21f552;
   border-radius: 50%;
   height: 180px;
   width: 180px;
