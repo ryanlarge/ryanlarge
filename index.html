@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                <!--<li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>-->
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
                </ul>
@@ -50,7 +50,7 @@
         <div class="content-center">
           <div class="cc-profile-image"><a><img src="images/ryan.jpg" alt="Image"/></a></div>
           <div id="profile-name" class="h2 title">Ryan Large</div>
-          <p id="profile-role" class="category text-white">Software Engineer</p><a class="btn btn-primary smooth-scroll mr-2" href="mailto:hire.ryanlarge@outlook.com" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Email</a><a class="btn btn-primary" href="static/example-resume.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Resume</a>
+          <p id="profile-role" class="category text-white">Software Engineer</p><a class="btn btn-primary smooth-scroll mr-2" href="mailto:hire.ryanlarge@outlook.com" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Email</a><a class="btn btn-primary" href="static/example-resume.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Resume</a>
         </div>
       </div>
       <div class="section">
@@ -68,7 +68,7 @@
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title">About</div>
-            <p>I am a software engineer</p>
+            <p id="profile-bio">I am a software engineer</p>
             <p></p>
           </div>
         </div>
@@ -81,7 +81,7 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Location:</strong></div>
-              <div class="col-sm-8"><a href="https://www.google.com/search?q=Greater+Seattle+Area">Greater Seattle Area</a></div>
+              <div class="col-sm-8"><a href="https://www.google.com/search?q=Seattle+metropolitan+area" target="_blank">Seattle metropolitan area</a></div>
             </div>
           </div>
         </div>
@@ -151,8 +151,18 @@
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Software Engineer</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <div class="h5">Lead Software Engineer in Test</div>
+            <p id="city-job">
+              <ul>
+                <li style="padding-top: 10px;">Design, develop, implement, and support a standardized, enterprise-wide test automation framework written in JAVA, with CI/CD integration, which is used in a team of over 20 SDET/QA engineers, which in turn supports external teams/applications on an enterprise-wide level.  This effort requries maintainance and oversight of code base that totals 320,549 lines of code.</li>
+                <li style="padding-top: 10px;">Design and implement QA processes and deliverables on a team wide level, while adhereing to the software development lifecycle methodology.  Direct, lead, delagate and oversee the work of over 20 SDET/QA on billable as well as O&M projects as a scrum master providing oversight of up to 100 testing tasks per month and providing QA metrics and project metrics to QA Managers.</li>
+                <li style="padding-top: 10px;">Train and mentor the IT department, as well as over 60 external teams/projects in all city departments on emerging technologies, agile methodoliges, and development operations by have multiple training sessions on primary concepts regarding scrum, kanban, sprints, source code management, and best practices for reviewing, building and deploying code.</li>
+                <li style="padding-top: 10px;">Oversaw a body of 20 SDETs / QA engineers and facilitated knowledge transfer sessions between projects and teams.  Ensured that proper documentation and data for over 20 active projects.</li>
+                <li style="padding-top: 10px;">Use of JAVA, Visual Studio, Eclipse, Selenium, Cucumber, TestNG, Azure DevOps to build an automation framework to be used by many SDETs.  Developed prototypes / proof of concepts using emerging technologies.</li>
+                <li style="padding-top: 10px;">Maintainined an automation framework consisting of over 300,000 lines of code and reviewing new code created by over 14 SDETs weekly.  Trained other SDETs on automation frameworks, programming concepts, and specialized testing tasks such as performance or load testing.</li>
+                <li style="padding-top: 10px;">Conducted interview sessions and relayed hiring recommendations to management.</li>
+               </ul>
+            </p>
           </div>
         </div>
       </div>
@@ -168,7 +178,14 @@
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">Software Engineer</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <p id="microsoft-job">
+              <ul>
+                <li style="padding-top: 10px;">Ensured stability across an 850 device build agent pool consisting of every version of Windows, Mac, Android, and iOS to support continuous test automation efforts in a continuous integration and continuous deployment environment using Chef, a configuration management tool, written in ruby and designed to be platform agnostic. This increased stability for many automated tests, across many different Skype products which in turn reduced false test positives caused by infrastructure related issues.</li>
+                <li style="padding-top: 10px;">Implemented strict object oriented automation test cases in an existing abstract test harness written in python to ensure the quality of a brand new React JS Skype application on Windows, Mac, Android, iOS, Chrome, Edge, and IE. Technologies included Selenium WebDriver, Appium, and additional custom closed source automation utilities designed by Microsoft for internal use. This allowed us to run regression tests on multiple different platforms daily.</li>
+                <li style="padding-top: 10px;">Sent daily test automation regression reports on daily Skype candidate builds detailing new bugs found on each platform, existing bugs on each platform, and percentage of health for each platform build. This allowed us to release high quality builds into production every week without any unknown bug going into production.</li>
+                <li style="padding-top: 10px;">Created custom automation performance and battery drainage tests for Skype's user interface on multiple iOS and Android versions across the most popular device models. Used Danjo REST framework to store automation results and Plotly to produce automation reports to show trends in graphical formats</li>
+              </ul>
+            </p>
           </div>
         </div>
       </div>
@@ -190,7 +207,7 @@
           <div class="card-body">
             <div class="h5">Computer Science</div>
             <p class="category">University of Iowa</p>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <p id="bachelor-degree"></p>
           </div>
         </div>
       </div>
@@ -207,7 +224,7 @@
           <div class="card-body">
             <div class="h5">Administration and Development</div>
             <p class="category">Microsoft</p>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <p id="microsoft-cert"></p>
           </div>
         </div>
       </div>
@@ -223,6 +240,11 @@
     <script>
       document.getElementById("profile-name").innerHTML = "Ryan Large";
       document.getElementById("profile-role").innerHTML = "Software Engineer";
+      document.getElementById("profile-bio").innerHTML = "I like long walks on the beach, but if you want to know more career related details check out the below.";
+      document.getElementById("microsoft-cert").innerHTML = "I have obtained the AZ-900 and AZ-104 certifications for the Microsoft Azure cloud";
+      document.getElementById("bachelor-degree").innerHTML = "I have obtained a bachelors degree from the University of Iowa";
+      //document.getElementById("microsoft-job").innerHTML = "Ensured stability across an 850 device build agent pool consisting of every version of Windows, Mac, Android, and iOS to support continuous test automation efforts in a continuous integration and continuous deployment environment using Chef, a configuration management tool, written in ruby and designed to be platform agnostic. This increased stability for many automated tests, across many different Skype products which in turn reduced false test positives caused by infrastructure related issues.Implemented strict object oriented automation test cases in an existing abstract test harness written in python to ensure the quality of a brand new React JS Skype application on Windows, Mac, Android, iOS, Chrome, Edge, and IE. Technologies included Selenium WebDriver, Appium, and additional custom closed source automation utilities designed by Microsoft for internal use. This allowed us to run regression tests on multiple different platforms daily.Sent daily test automation regression reports on daily Skype candidate builds detailing new bugs found on each platform, existing bugs on each platform, and percentage of health for each platform build. This allowed us to release high quality builds into production every week without any unknown bug going into production.Created custom automation performance and battery drainage tests for Skype's user interface on multiple iOS and Android versions across the most popular device models. Used Danjo REST framework to store automation results and Plotly to produce automation reports to show trends in graphical formats";
+      //document.getElementById("city-job").innerHTML = "I have done these things...";
     </script>
     <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
     <script src="js/core/popper.min.js?ver=1.1.0"></script>
